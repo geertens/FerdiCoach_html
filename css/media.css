@@ -16,6 +16,26 @@
    
 }
 
+#frontFoto{
+    position: fixed;
+    background: #fff;
+    min-height:100%;
+    z-index:-200;
+    width:30%;
+    margin-top:-110px;
+    
+}
+ #frontFoto img{
+    width:100%;
+     height:auto;
+    margin-top:110px;
+}
+
+#tekstMobiel{
+   margin-left:30%;
+    width:70%;
+     margin-top:-500px;
+}
 #een {
    margin-top: 610px;
 }
@@ -39,10 +59,10 @@ ul#submenu li a {
     padding-left: 0px;
 }
 
-h1.kopMobiel, h1.kopTekst {
+h1.kopMobiel{
     width: 100%;
-    text-align: center;
-    padding-top: 20px;
+    text-align: left;
+    padding-left: 20px;
 }
 
 h1.kopMobiel{
@@ -52,6 +72,7 @@ h1.kopMobiel a, h1.kopTekst  {
     font-weight: 500;
     text-decoration: none;
     color: #000;
+    
 }
 
 #een,
@@ -63,9 +84,10 @@ h1.kopMobiel a, h1.kopTekst  {
 #zeven {
     display: none;
     height: 300px;
+    width:100%;
 }
 
-#een, #drie, #vijf, #zeven{
+#twee, #vier, #zes{
     background-color: #fff;
 }
 
